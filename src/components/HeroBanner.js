@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner.png";
+import MoodRoundedIcon from "@mui/icons-material/MoodRounded";
 
 const HeroBanner = () => {
   return (
@@ -22,6 +23,14 @@ const HeroBanner = () => {
         mt="30px"
       >
         Sweat, Smile <br /> and Repeat
+      </Typography>
+      <Typography
+        position="absolute"
+        left="300px"
+        top="50px"
+        sx={{ transform: "rotate(45deg)" }}
+      >
+        <MoodRoundedIcon style={{ fontSize: "69px" }} />
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={3}>
         Check Out the most effective exercises
